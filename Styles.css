@@ -1,0 +1,109 @@
+:root {
+    font-family: "Font Awesome 6 Free";
+
+}
+
+body {
+  margin:0;
+  padding:0;
+  
+}
+.welcome{
+  padding:100px 0 0 0;
+  background-color:black;
+  color:white;
+  height:500px;
+  text-align:center;
+   margin:0;
+  text-decoration:underline 10px;
+  font-size:30px;
+  font-weight:bold;
+}
+.about{
+  text-decoration:none;
+}
+.menu-item {
+  padding:7px;
+  font-weight:bold;
+}
+.about, .work, .contact {
+  color:black;
+  
+  text-decoration:none;
+}
+.header{
+  position:sticky;
+  top:0px;
+}
+.nav-bar {
+  margin:0;
+  list-style:none;
+  display:flex;
+  align-items:center;
+  background:linear-gradient(33deg, #800000 44%, #800020 66%);
+  position:sticky;
+  height:50px;
+}
+.menu-item{
+  border:solid 5px;
+  border-radius:10px;
+  width:100%;
+  text-align:center;
+  background:linear-gradient(44deg, #800020, purple);
+}
+.projects {
+padding:100px 0 0 0;
+background-color:#800000;
+color:white;
+height:500px;
+text-align:center;
+  margin:0;
+}
+.FCC {
+  color:white;
+  text-decoration:none;
+}
+.FCC:hover {
+  color:black;
+  background-color:white;
+  font-weight:900;
+}
+.project-tile {
+   text-decoration:underline 10px;
+}
+
+footer {
+  background:linear-gradient(33deg, silver, gray, black );
+height:33px;
+text-align:center;
+}
+.contact {
+  padding:10px 0 0 10px;
+  margin:0;
+  font-weight:bold;
+}
+.email {
+  text-decoration:none;
+  color:black;
+}
+.email:hover {
+  color:white;
+  background:black;
+  border:solid black;
+  border-radius:30px;
+}
+
+@media(max-width:1000px) {
+  * {
+    font-size:10px;
+    text-decoration:none !important;
+
+  }
+  .welcome, .projects {
+    height:200px;
+    padding-top:10px;
+  }
+  .footer {
+    height:100vh;
+  }
+} 
