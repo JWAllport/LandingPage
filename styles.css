@@ -59,11 +59,11 @@ height:500px;
 text-align:center;
   margin:0;
 }
-.FCC {
+.FCC, .platformer {
   color:white;
   text-decoration:none;
 }
-.FCC:hover {
+.FCC:hover, .platformer:hover {
   color:black;
   background-color:white;
   font-weight:900;
