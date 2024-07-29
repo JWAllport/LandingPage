@@ -59,11 +59,12 @@ height:500px;
 text-align:center;
   margin:0;
 }
-.FCC, .platformer {
+.projectLink {
   color:white;
   text-decoration:none;
+    display:block;
 }
-.FCC:hover, .platformer:hover {
+.projectLink:hover {
   color:black;
   background-color:white;
   font-weight:900;
