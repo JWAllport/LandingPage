@@ -23,44 +23,100 @@
 <body>
 
   <section class="header" id="header">
-    <nav>
+    <nav class="nav">
+      <a class="logo" href="#welcome-section">Jake Allport</a>
       <ul id="navbar" class="nav-bar">
-        <li class="menu-item" id="about"><a class="about" href=#welcome-section>About</a></li>
-        <li class="menu-item" id="work"><a class="work" href=#projects>Work</a></li>
-        <li class="menu-item" id="contact"><a class="contact" href="mailto:Jake.w.allport@gmail.com">Contact</a></li>
+        <li class="menu-item" id="about"><a class="about" href="#welcome-section">About</a></li>
+        <li class="menu-item" id="work"><a class="work" href="#projects">Projects</a></li>
+        <li class="menu-item" id="certs"><a class="certs" href="#certifications">Certifications</a></li>
+        <li class="menu-item" id="contact"><a class="contact" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </section>
    <section class="welcome" id="welcome-section">
-    <h1>Hey! I am Jake</h2>
-    <p>Check out my <a class = "resumeLink" href="resources/ALLPORT_2026.pdf" target="_blank" style="text-decoration:none; color:white;">Resume</a>!
-    </p>
+    <div class="hero">
+      <p class="eyebrow">Software Developer</p>
+      <h1>Hi, I’m Jake Allport.</h1>
+      <p class="lead">Software engineer with experience delivering JavaScript, C# .NET, and Java solutions, from enterprise UI workflows and automated tests to SQL-backed web apps and CI/CD pipelines.</p>
+      <div class="cta-row">
+        <a class="primary-cta" href="resources/ALLPORT_2026.pdf" target="_blank">View Resume</a>
+        <a class="secondary-cta" href="#projects">Explore Projects</a>
+      </div>
+    </div>
   </section>
 
 
   <section class="projects" id="projects">
-    <h1 class="project-tile">These are some of my projects</h1>
-    <p >
-      <a class="projectLink" id="platformer-link" href="https://jwallport.github.io/Platformer/" target="_blank">Platformer Game</a>
-      <a class="projectLink" id="cashReg-link" href="https://jwallport.github.io/CashReg/" target="_blank">Cash Register Simulator</a>
-      <a class="projectLink" id="DicePoker" href="https://jwallport.github.io/DicePoker/" target="_blank">Dice Poker</a>
-      <a class="projectLink" id="Palindrome-Verification" href="https://jwallport.github.io/Palindrome-Verification/" target="_blank">Palindrome Verification</a>
-      <a class="projectLink" id="Roman-Numeral-Converter" href="https://jwallport.github.io/Roman-Numeral-Converter/" target="_blank">Roman Numeral Converter</a>
-      <a class="projectLink" id="HTML Markdown Preview" href="https://jwallport.github.io/Markdown-Preview/" target="_blank">HTML Markdown Preview/Editor</a>
-      <a class="projectLink" id="Drum-Machine" href="https://jwallport.github.io/Drum-Machine/" target="_blank">Drum Machine</a>
-      <a class="projectLink" id="Calculator" href="https://jwallport.github.io/Calculator/" target="_blank">Calculator</a>
-    </p>
-      <h1 class="project-tile">Certification</h1>
-      <p>
-        <a class="projectLink" id="responsiveWebDesignCert" href="https://www.freecodecamp.org/certification/fcca33c4b4e-2f8a-4f57-a22b-b815db539c9a/responsive-web-design" target="_blank">Responsive Web Design Certificate</a>
-        <a class="projectLink" id="javascriptAlgoDtStrCert" href="https://www.freecodecamp.org/certification/fcca33c4b4e-2f8a-4f57-a22b-b815db539c9a/javascript-algorithms-and-data-structures-v8" target="_blank">JavaScript Algorithms and Data Structures Certificate</a>
-        <a class="projectLink" id="SSIS" href = "resources/SSIS_CERT.pdf" target="_blank">SQL Server Integration Services</a>
-      </p>
+    <div class="section-header">
+      <h2>Selected Projects</h2>
+      <p>Applications and tools that highlight my front-end fundamentals and problem-solving skills.</p>
+    </div>
+    <div class="project-grid">
+      <a class="project-card" id="platformer-link" href="https://jwallport.github.io/Platformer/" target="_blank">
+        <h3>Platformer Game</h3>
+        <p>Interactive game mechanics, responsive controls, and engaging level design.</p>
+        <span>View Project →</span>
+      </a>
+      <a class="project-card" id="cashReg-link" href="https://jwallport.github.io/CashReg/" target="_blank">
+        <h3>Cash Register Simulator</h3>
+        <p>Algorithm-driven change calculation with input validation and UI clarity.</p>
+        <span>View Project →</span>
+      </a>
+      <a class="project-card" id="DicePoker" href="https://jwallport.github.io/DicePoker/" target="_blank">
+        <h3>Dice Poker</h3>
+        <p>Probability-based scoring with dynamic UI updates.</p>
+        <span>View Project →</span>
+      </a>
+      <a class="project-card" id="Palindrome-Verification" href="https://jwallport.github.io/Palindrome-Verification/" target="_blank">
+        <h3>Palindrome Verification</h3>
+        <p>String parsing and validation with clean user feedback.</p>
+        <span>View Project →</span>
+      </a>
+      <a class="project-card" id="Roman-Numeral-Converter" href="https://jwallport.github.io/Roman-Numeral-Converter/" target="_blank">
+        <h3>Roman Numeral Converter</h3>
+        <p>Rule-based conversion engine with fast results.</p>
+        <span>View Project →</span>
+      </a>
+      <a class="project-card" id="HTML Markdown Preview" href="https://jwallport.github.io/Markdown-Preview/" target="_blank">
+        <h3>Markdown Previewer</h3>
+        <p>Live editor with structured formatting and preview pane.</p>
+        <span>View Project →</span>
+      </a>
+      <a class="project-card" id="Drum-Machine" href="https://jwallport.github.io/Drum-Machine/" target="_blank">
+        <h3>Drum Machine</h3>
+        <p>Accessible controls with audio handling and keyboard triggers.</p>
+        <span>View Project →</span>
+      </a>
+      <a class="project-card" id="Calculator" href="https://jwallport.github.io/Calculator/" target="_blank">
+        <h3>Calculator</h3>
+        <p>Precise calculations with clean layout and error handling.</p>
+        <span>View Project →</span>
+      </a>
+    </div>
   </section>
 
-<footer>
-  <p class="contact" id="contact">Reach out! <a class="email" id="email" href="mailto:Jake.w.allport@gmail.com"> Jake.w.allport@gmail.com</a></p>
+  <section class="certifications" id="certifications">
+    <div class="section-header">
+      <h2>Certifications</h2>
+      <p>Validated skills and continued learning.</p>
+    </div>
+    <div class="cert-grid">
+      <a class="cert-card" id="responsiveWebDesignCert" href="https://www.freecodecamp.org/certification/fcca33c4b4e-2f8a-4f57-a22b-b815db539c9a/responsive-web-design" target="_blank">Responsive Web Design</a>
+      <a class="cert-card" id="javascriptAlgoDtStrCert" href="https://www.freecodecamp.org/certification/fcca33c4b4e-2f8a-4f57-a22b-b815db539c9a/javascript-algorithms-and-data-structures-v8" target="_blank">JavaScript Algorithms &amp; Data Structures</a>
+      <a class="cert-card" id="SSIS" href="resources/SSIS_CERT.pdf" target="_blank">SQL Server Integration Services</a>
+    </div>
+  </section>
 
+<footer id="contact">
+  <div class="footer-content">
+    <div>
+      <h3>Let’s connect</h3>
+      <p>Open to software development opportunities and collaborations.</p>
+    </div>
+    <div class="footer-actions">
+      <a class="email" id="email" href="mailto:Jake.w.allport@gmail.com">Jake.w.allport@gmail.com</a>
+    </div>
+  </div>
 </footer>
 </body>
 
